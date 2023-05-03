@@ -414,7 +414,7 @@ function SetLightMode()
 {
   LightList.addEventListener("click", function ()
   {
-    localStorage.setItem("light", "/css/lightmode.css");
+    localStorage.setItem("light", "css/lightmode.css");
       LightMode.setAttribute("href", localStorage.getItem("light"));
   })
 }
